@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: sofle_eao 
+      url-base: https://github.com/evandroao
+  projects:
+    - name: sofle_eao
+      remote: sofle_eao
+      revision: main
+      import: app/west.yml
+  self:
+    path: config
