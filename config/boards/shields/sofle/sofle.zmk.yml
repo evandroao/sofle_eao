@@ -1,0 +1,11 @@
+file_format: "1"
+id: sofle
+name: Sofle Choc
+type: shield
+features:
+  - keys
+  - split
+siblings:
+  - sofle_left
+  - sofle_right
+

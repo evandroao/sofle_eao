@@ -1,0 +1,2 @@
+config SHIELD_SOFLE
+    bool "Sofle keyboard"
