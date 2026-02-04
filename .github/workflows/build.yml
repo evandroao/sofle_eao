@@ -4,11 +4,11 @@ jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
 
-strategy:
-  matrix:
-    include:
-      - board: nrfmicro_13
-        shield: sofle_left
-      - board: nrfmicro_13
-        shield: sofle_right
+    strategy:
+      matrix:
+        include:
+          - board: nrfmicro_13
+            shield: sofle_left
+          - board: nrfmicro_13
+            shield: sofle_right
 
